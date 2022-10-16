@@ -1,5 +1,5 @@
 # manifest to create file in tmp directory
-file { '/tmp/holberton':
+file { 'holberton':
   ensure  => file,
   path    => '/tmp/holberton',
   mode    => '0744',
